@@ -39,8 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # The settings for app updated for the Graded assessment
     'restaurant',
-    'rest_framework',
-    'djoser',
 ]
 
 MIDDLEWARE = [
@@ -130,7 +128,7 @@ USE_TZ = True
 STATIC_URL = 'restaurant/static/'
 
 STATICFILES_DIRS = [
-    "restaurant/static",
+    "restaurant/static/",
 ]
 
 # Default primary key field type
